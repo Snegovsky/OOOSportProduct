@@ -22,3 +22,10 @@ C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSport
 C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct_Content.g.cs
 C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.CopyComplete
+C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\bin\Debug\EasyCaptcha.Wpf.dll
+C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\bin\Debug\EasyCaptcha.Wpf.pdb
+C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\obj\Debug\Catalog.g.cs
+C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\obj\Debug\Catalog.baml
+C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\obj\Debug\Order.g.cs
+C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\obj\Debug\Order.baml

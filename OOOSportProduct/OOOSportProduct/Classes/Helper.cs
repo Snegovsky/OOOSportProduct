@@ -7,7 +7,7 @@ using OOOSportProduct.Model;
 
 namespace OOOSportProduct.Model
 {
-    internal class Helper
+    public class Helper
     {
         //обьявление обьекта связи с БД
        public static Model.DBSportProducts DB { get; set; }

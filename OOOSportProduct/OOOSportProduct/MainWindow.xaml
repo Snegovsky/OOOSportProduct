@@ -4,17 +4,23 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OOOSportProduct"
+        xmlns:cat="clr-namespace:EasyCaptcha.Wpf;assembly=EasyCaptcha.Wpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Icon="/Resources/icon.ico" Loaded="Window_Loaded">
 
 
+    
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="47*"/>
+            <ColumnDefinition Width="153*"/>
+        </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
             <RowDefinition Height="80"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" Background="#FFFFCC99">
+        <Grid Grid.Row="0" Background="#FFFFCC99" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="80"/>
                 <ColumnDefinition Width="2*"/>
@@ -25,7 +31,7 @@
             <Button Name="buttonNavigate" Grid.Column="2" Content="Выход" Style="{StaticResource Title}" Height="80" Width="240" Background="#FFCC6600" Click="buttonNavigate_Click"/>
 
         </Grid>
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1" Grid.ColumnSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -42,12 +48,14 @@
             <TextBlock Grid.Row="2" Text="Password"  Style="{StaticResource Title}"/>
             <TextBox Name="tbLogin" Grid.Column="1" Grid.Row="1" Margin="20" Style="{StaticResource Normal}"/>
             <PasswordBox Name="tbPassword" Grid.Column="1"   Margin="20" Grid.Row="2" Style="{StaticResource Normal}" />
+            <TextBox Name="tbCaptcha" Grid.Column="1"   Margin="20" Grid.Row="3" Style="{StaticResource Normal}" />
+            <cat:Captcha  Name="Captcha"  Grid.Column="0" Grid.Row="3"/>
 
-            <Button Name="btnGuest" Content="Гость" Grid.Column="0" Grid.Row="4" VerticalAlignment="Stretch" Style="{StaticResource Title}" Height="50" Width="200" Background="#FFCC6600"/>
+            <Button Name="btnGuest" Content="Гость" Grid.Column="0" Grid.Row="4" VerticalAlignment="Stretch" Style="{StaticResource Title}" Height="50" Width="200" Background="#FFCC6600" Click="btnGuest_Click"/>
             <Button Name="btnInput" Content="Вход" Grid.Column="1" Grid.Row="4" VerticalAlignment="Stretch" Style="{StaticResource Title}" Height="50"  Width="200" Background="#FFCC6600" Click="btnInput_Click"/>
 
-
         </Grid>
+
     </Grid>
 
 </Window>
