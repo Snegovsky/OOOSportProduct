@@ -19,14 +19,32 @@ namespace OOOSportProduct.Classes
 
         //общая скидка в %
         public double SumDiscountPercent { get; set; }
-        //Classes.ProductExtended productExtended
-        public double CalcSummaOrder(Classes.OrderExtended orderExtended)
-        { 
-        return SumOrder;
-        }
-        public double CalcSummaDiscountPercent() 
+
+        public decimal CalcSummaOrder(List<Model.OrderProduct> listProductsInOrder)
         {
-            return SumOrderWithDiscount;
+            SumOrder = 0;
+
+            foreach (var orderProduct in listProductsInOrder)
+            {
+                SumOrder += Convert.ToDouble(orderProduct.Product.ProductCost * orderProduct.ProductCount);
+            }
+
+            return (decimal)SumOrder;
+        }
+
+        public decimal CalcSummaDiscountPercent(List<Model.OrderProduct> listProductsInOrder)
+        {
+            SumOrderWithDiscount = 0;
+
+            foreach (var orderProduct in listProductsInOrder)
+            {
+                decimal productSaleDecimal = (decimal)orderProduct.Product.ProductSale;
+                decimal discountAmount = orderProduct.Product.ProductCost * (productSaleDecimal / 100.0m);
+                decimal priceWithDiscount = orderProduct.Product.ProductCost - discountAmount;
+                SumOrderWithDiscount += Convert.ToDouble(priceWithDiscount * orderProduct.ProductCount);
+            }
+
+            return (decimal)SumOrderWithDiscount;
         }
     }
 }
