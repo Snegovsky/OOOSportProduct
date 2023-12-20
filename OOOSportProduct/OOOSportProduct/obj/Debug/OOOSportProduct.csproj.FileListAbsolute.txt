@@ -29,3 +29,34 @@ C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSport
 C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\obj\Debug\Catalog.baml
 C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\obj\Debug\Order.g.cs
 C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\obj\Debug\Order.baml
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\bin\Debug\OOOSportProduct.exe.config
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\bin\Debug\OOOSportProduct.exe
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\bin\Debug\OOOSportProduct.pdb
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\bin\Debug\EasyCaptcha.Wpf.dll
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\bin\Debug\EntityFramework.dll
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\bin\Debug\EasyCaptcha.Wpf.pdb
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\bin\Debug\EntityFramework.xml
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.AssemblyReference.cache
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.SuggestedBindingRedirects.cache
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\Catalog.g.cs
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\MainWindow.g.cs
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\Order.g.cs
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\App.g.cs
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct_Content.g.cs
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct_MarkupCompile.cache
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct_MarkupCompile.lref
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\App.baml
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\Catalog.baml
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\MainWindow.baml
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\Order.baml
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.g.resources
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.Properties.Resources.resources
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.GenerateResource.cache
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.CoreCompileInputs.cache
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.CopyComplete
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.exe
+C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.pdb

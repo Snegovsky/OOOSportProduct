@@ -82,6 +82,7 @@ namespace OOOSportProduct
             List<Model.User> users = new List<Model.User>();
             users = Helper.DB.User.ToList();
             Helper.User = users.Where(u => u.UserLogin == login && u.UserPassword == password).FirstOrDefault();
+           
             if (Helper.User != null && tbCaptcha.Text == answer)
             {
                 //Доступ к конкретному полю
