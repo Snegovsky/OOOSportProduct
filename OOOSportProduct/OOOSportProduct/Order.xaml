@@ -41,18 +41,18 @@
                 <ListView.View>
                     <GridView>
                         <GridViewColumn  Header="Номер заказа"
-                                                         DisplayMemberBinding="{Binding Order.OrderId}" />
+                                                         DisplayMemberBinding="{Binding OrderID}" />
                         <GridViewColumn  Header="Дата заказа" 
-                                                         DisplayMemberBinding="{Binding Order.OrderDate}" />
+                                                         DisplayMemberBinding="{Binding OrderDate}" />
                         <GridViewColumn  Header="Сумма заказа" 
-                                                         DisplayMemberBinding="{Binding TotalSumma}"/>
+                                                         DisplayMemberBinding="{Binding SumOrder}"/>
                         <GridViewColumn  Header="Сумма скидки (руб)" 
-                                                         DisplayMemberBinding="{Binding TotalDiscount}"/>
+                                                         DisplayMemberBinding="{Binding SumOrderWithDiscoun}"/>
                         <GridViewColumn  Header="Сумма скидки (%)"
-                                                         DisplayMemberBinding="{Binding TotalDiscountPercent, 
+                                                         DisplayMemberBinding="{Binding SumDiscountPercent, 
                                                                                                      StringFormat={}{0:F2}}"/>
                         <GridViewColumn  Header="ФИО получателя" 
-                                                         DisplayMemberBinding="{Binding Order.OrderClient}"/>
+                                                         DisplayMemberBinding="{Binding OrderClientFullName}"/>
                     </GridView>
                 </ListView.View>
             </ListView>
@@ -72,7 +72,7 @@
                                 <GridViewColumn Header="Артикль товара"
                                                                 DisplayMemberBinding="{Binding ProductArticle}"/>
                                 <GridViewColumn Header="Количество товара в заказе" 
-                                                                DisplayMemberBinding="{Binding ProductCountInOrder}"/>
+                                                                DisplayMemberBinding="{Binding ProductCount}"/>
                             </GridView>
                         </ListView.View>
                     </ListView>

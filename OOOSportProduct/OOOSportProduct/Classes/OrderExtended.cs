@@ -20,7 +20,7 @@ namespace OOOSportProduct.Classes
         //общая скидка в %
         public double SumDiscountPercent { get; set; }
 
-        public decimal CalcSummaOrder(List<Model.OrderProduct> listProductsInOrder)
+        public double CalcSummaOrder(List<Model.OrderProduct> listProductsInOrder)
         {
             SumOrder = 0;
 
@@ -29,22 +29,25 @@ namespace OOOSportProduct.Classes
                 SumOrder += Convert.ToDouble(orderProduct.Product.ProductCost * orderProduct.ProductCount);
             }
 
-            return (decimal)SumOrder;
+            return SumOrder;
         }
 
-        public decimal CalcSummaDiscountPercent(List<Model.OrderProduct> listProductsInOrder)
+        public double CalcSummaDiscountPercent(List<Model.OrderProduct> listProductsInOrder)
         {
             SumOrderWithDiscount = 0;
 
             foreach (var orderProduct in listProductsInOrder)
             {
-                decimal productSaleDecimal = (decimal)orderProduct.Product.ProductSale;
-                decimal discountAmount = orderProduct.Product.ProductCost * (productSaleDecimal / 100.0m);
-                decimal priceWithDiscount = orderProduct.Product.ProductCost - discountAmount;
-                SumOrderWithDiscount += Convert.ToDouble(priceWithDiscount * orderProduct.ProductCount);
+                double productSaleDecimal = orderProduct.Product.ProductSale;
+                double productCost = Convert.ToDouble(orderProduct.Product.ProductCost);
+                productSaleDecimal /= 100.0;
+                double discountAmount = productCost * productSaleDecimal;
+                double priceWithDiscount = productCost - discountAmount;
+                SumOrderWithDiscount += (priceWithDiscount * orderProduct.ProductCount);
+                
             }
 
-            return (decimal)SumOrderWithDiscount;
+            return SumOrderWithDiscount;
         }
     }
 }

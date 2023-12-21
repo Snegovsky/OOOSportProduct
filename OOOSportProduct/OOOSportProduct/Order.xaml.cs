@@ -49,8 +49,9 @@ namespace OOOSportProduct
                 Classes.OrderExtended orderExtended = new OrderExtended();
                 orderExtended.order = order;		//Заполнить данные о заказе из БД
                 //Вызов методов класса через объект для вычисления дополнительных свойств
-                orderExtended.SumOrder = (double)orderExtended.CalcSummaOrder(listProductsInOrders);
-                orderExtended.SumOrderWithDiscount = (double)orderExtended.CalcSummaDiscountPercent(listProductsInOrders);
+                orderExtended.SumOrder = orderExtended.CalcSummaOrder(listProductsInOrders);
+                orderExtended.SumOrderWithDiscount = orderExtended.CalcSummaDiscountPercent(listProductsInOrders);
+                
                 listExtendedOrders.Add(orderExtended);
             }
             //Сортировка
