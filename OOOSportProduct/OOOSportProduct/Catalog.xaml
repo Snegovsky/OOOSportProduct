@@ -37,7 +37,8 @@
             </Grid.ColumnDefinitions>
             <Button x:Name="buttonOrder" Content="Перейти к заказу" 
                     Style="{StaticResource Normal}"  Grid.Column="1" Grid.Row="1" 
-                    VerticalAlignment="Bottom"  Margin="15,20,15,0"  Background="#FFCC6600" />
+                    VerticalAlignment="Bottom"  Margin="15,20,15,0"  Background="#FFCC6600" 
+                    Click="buttonOrder_Click"/>
 
             <TextBlock x:Name="tbFIO" Grid.Column="1" Grid.Row="0"
                        Style="{StaticResource Normal}"/>

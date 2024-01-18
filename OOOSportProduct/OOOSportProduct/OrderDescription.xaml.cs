@@ -23,5 +23,12 @@ namespace OOOSportProduct
         {
             InitializeComponent();
         }
+
+        private void buttonNavigate_Click(object sender, RoutedEventArgs e)
+        {
+            Catalog catalog = new Catalog();
+            catalog.Show();
+            this.Close();
+        }
     }
 }

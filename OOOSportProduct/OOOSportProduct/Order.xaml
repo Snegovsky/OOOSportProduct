@@ -29,6 +29,10 @@
 
         <!--Функциональная часть-->
         <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="19*"/>
+                <ColumnDefinition Width="81*"/>
+            </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="0.5*"/>
                 <RowDefinition Height="3*"/>
@@ -36,8 +40,8 @@
             </Grid.RowDefinitions>
 
             <!--Список заказов-->
-            <ListView x:Name="listViewOrders" Grid.Row="1" HorizontalAlignment="Stretch" 
-                              Margin="10 10" SelectionChanged="listViewOrders_SelectionChanged">
+            <ListView x:Name="listViewOrders" Grid.Row="1" 
+                              Margin="10,10,10,10" SelectionChanged="listViewOrders_SelectionChanged" Grid.ColumnSpan="2">
                 <ListView.View>
                     <GridView>
                         <GridViewColumn  Header="Номер заказа"
@@ -58,7 +62,7 @@
             </ListView>
 
             <!--Под списком заказов-->
-            <Grid Grid.Row="2">
+            <Grid Grid.Row="2" Grid.ColumnSpan="2">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
@@ -96,7 +100,7 @@
             </Grid>
 
             <!--Верхняя часть для сортировки и фильтрации-->
-            <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Grid.ColumnSpan="2">
                 <TextBlock x:Name="tbCount"  Text="Количество заказов"
                                     Style="{StaticResource Normal}"/>
                 <TextBlock Text="Сортировка по стоимости" Style="{StaticResource Normal}" Margin="10,0,0,0"/>

@@ -34,6 +34,13 @@ namespace OOOSportProduct
             this.Close();
 
         }
+        private void buttonOrder_Click(object sender, RoutedEventArgs e)
+        {
+            OrderDescription orderDescription = new OrderDescription();
+            orderDescription.Show();
+            this.Close();
+
+        }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {

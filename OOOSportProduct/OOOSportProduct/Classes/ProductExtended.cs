@@ -28,7 +28,7 @@ namespace OOOSportProduct.Classes
                 return temp;
             }
         }
-        private double productCostWithDiscount;
+        //private double productCostWithDiscount;
         public double ProductCostWithDiscount
         {
             get

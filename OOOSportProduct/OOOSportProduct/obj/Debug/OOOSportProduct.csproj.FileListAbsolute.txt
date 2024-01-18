@@ -60,3 +60,5 @@ C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportPro
 C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.CopyComplete
 C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.exe
 C:\Users\Snegovsky.SNEG\Source\Repos\OOOSportProduct\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.pdb
+C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\obj\Debug\OrderDescription.g.cs
+C:\Users\stud\Documents\Бутко 11\WPFGIT\Repository\OOOSportProduct\OOOSportProduct\obj\Debug\OrderDescription.baml

@@ -69,6 +69,8 @@ namespace OOOSportProduct
             int filterCount = listExtendedOrders.Count;
             listViewOrders.ItemsSource = null;
             listViewOrders.ItemsSource = listExtendedOrders;
+
+            listViewOrders.ItemsSource = listOrders;
             tbCount.Text = filterCount + " из " + totalCount;
         }
 
@@ -88,8 +90,8 @@ namespace OOOSportProduct
 
         private void buttonNavigate_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main = new MainWindow();
-            main.Show();
+            Catalog catalog = new Catalog();
+            catalog.Show();
             this.Close();
         }
         /// При загрузке окна
